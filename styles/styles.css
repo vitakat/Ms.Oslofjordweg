@@ -1,0 +1,171 @@
+*{
+font-family: monospace;
+letter-spacing: 0.5ex;
+
+text-align: center;
+}
+
+h1 {
+font-size: 20px;
+text-shadow: -1px -1px cyan;
+}
+
+/* DE BODIES VAN ELKE PAGINA */
+
+body.orangepage {
+    background-color: orangered;
+}    
+body.redpage {
+    background-color: red;
+}    
+body.bluepage {
+    background-color:royalblue
+}    
+body.whitepage {
+    background-color:green
+}    
+body.home{
+background-color:white;
+}
+section#home{
+    background-color: black;
+}
+h1#home {
+    color: black;
+    text-shadow: -1px -1px cyan;
+}
+
+
+h2 {
+background-color: rgb(0,0,0);
+color: #ffffff;
+text-shadow: -1px -1px cyan;
+text-align: center;
+padding:1px;
+border: 20px;
+border-radius: 25px;
+width:35vw;
+margin: auto;
+}
+
+
+img.photos {
+    width: 28vw;
+    height: 28vw;
+display:flex;
+padding:2vw;
+flex-direction:table-row;
+margin:auto;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+
+.doors {
+width: 200px;
+height: 200px;
+}
+.section {
+width: 200px;
+height: 200px;
+display: flex;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+
+.questions {
+font-weight: bold;
+color:black;
+font-size: 14px;
+}
+
+p {
+background-color: rgb(109, 93, 116); 
+color: white;
+text-shadow: -1px -1px cyan;
+border: 20px;
+border-radius: 25px;
+width:60vw;
+text-align: center;
+margin: auto;
+font-size:12px;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+main {
+    width: 75%;
+    height: 90%;
+    background-color: white;
+    margin: auto;
+    box-align: center;
+    padding: 3vw;
+    }
+
+.flex-container {
+    padding: 10px 0 0 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+figure.roomphotos {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+footer {
+    background-color:rgb(203, 171, 212);
+}
+
+/* Dit is code dat word gebruikt wanneer het in een mobiele platform word geopened! */
+
+
+@media only screen and (max-width: 600px) {
+	main.main {
+        width: 85%;
+        height: auto;
+        background-color: white;
+        margin: auto;
+        padding: 3vw;
+   }
+   
+   h1#home {
+    color: black;
+    text-shadow: -1px -1px cyan;
+	font-size: 6vw;
+   }
+   
+	ul {
+    background-color: white;
+    color: black;
+    text-shadow: -1px -1px cyan;
+    border: 20px;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+   
+   section.flex-container {
+	    display: flex;
+        flex-wrap: wrap;
+		
+   }
+
+   img.photos {
+      width: 320px;
+    height: 320px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+}
+img.flags {
+    width:40px;
+    height:25px;
+}
